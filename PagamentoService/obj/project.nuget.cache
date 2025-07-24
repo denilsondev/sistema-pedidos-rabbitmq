@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hxhZxwRYi3mYld8DnoH9l0Ini/6jkNiCgP31HO3XfAH3JDc/JceuJpix5tdiisO0FPRhfQZaXC72g5abEMIyNg==",
+  "success": true,
+  "projectFilePath": "/home/denilson/pedido app/PagamentoService/PagamentoService.csproj",
+  "expectedPackageFiles": [
+    "/home/denilson/.nuget/packages/rabbitmq.client/7.1.2/rabbitmq.client.7.1.2.nupkg.sha512",
+    "/home/denilson/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
+    "/home/denilson/.nuget/packages/system.threading.ratelimiting/8.0.0/system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
