@@ -9,7 +9,7 @@ namespace NfeService.Application
             Console.WriteLine($"[{DateTime.Now}] Gerando NF-e fake...");
         }
 
-        public void GerarNfe(Common.Dominio.Pedido pedido)
+        public void GerarNfe(PedidoApp.Common.Dominio.Pedido pedido)
         {
             Console.WriteLine($"[NfeService] Gerando NF-e para o pedido {pedido.Id} do cliente {pedido.Cliente}...");
             System.Threading.Thread.Sleep(1500); // Simula geração de nota

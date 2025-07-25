@@ -1,4 +1,4 @@
-using Common.Infraestrutura;
+using PedidoApp.Common.Infraestrutura;
 using RabbitMQ.Client;
 
 namespace NotificacaoService.Infra

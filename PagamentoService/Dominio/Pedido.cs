@@ -1,6 +1,6 @@
-using Common.Dominio;
+using PedidoApp.Common.Dominio;
 
 namespace PagamentoService.Dominio
 {
-    public class Pedido : Common.Dominio.Pedido { }
+    public class Pedido : PedidoApp.Common.Dominio.Pedido { }
 } 

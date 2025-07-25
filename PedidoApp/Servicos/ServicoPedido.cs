@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 using System.Text.Json;
-using Common.Dominio;
+using PedidoApp.Common.Dominio;
 using RabbitMQ.Client;
 
 namespace PedidoApp.Servicos

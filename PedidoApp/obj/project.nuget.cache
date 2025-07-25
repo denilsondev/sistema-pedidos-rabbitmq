@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KoXJ9Z32At+KkPGl5GpFUgqha7zkrCtXI1n15FhbErbk8jO08Uf22f4qs3VXgLE6FsfMUlbk8FGdwGJYXaG6lw==",
+  "dgSpecHash": "gvMU8UcghJMantlovL5dsd2AW2BNq3kBmt2SRfp0fv7btVHjAj6jUOxx5N83AQ7p+Q4Qd0qsKQ0GIQFFX+bNfQ==",
   "success": true,
-  "projectFilePath": "/home/denilson/pedido app/PedidoApp/PedidoApp.csproj",
+  "projectFilePath": "/home/denilson/Documentos/dev/study/pedido app/PedidoApp/PedidoApp.csproj",
   "expectedPackageFiles": [
-    "/home/denilson/.nuget/packages/rabbitmq.client/7.1.2/rabbitmq.client.7.1.2.nupkg.sha512",
-    "/home/denilson/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
-    "/home/denilson/.nuget/packages/system.threading.ratelimiting/8.0.0/system.threading.ratelimiting.8.0.0.nupkg.sha512"
+    "/home/denilson/.nuget/packages/rabbitmq.client/6.8.1/rabbitmq.client.6.8.1.nupkg.sha512",
+    "/home/denilson/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/home/denilson/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

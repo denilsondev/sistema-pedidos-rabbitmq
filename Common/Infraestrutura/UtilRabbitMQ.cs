@@ -1,6 +1,6 @@
 using RabbitMQ.Client;
 
-namespace Common.Infraestrutura
+namespace PedidoApp.Common.Infraestrutura
 {
     public static class UtilRabbitMQ
     {

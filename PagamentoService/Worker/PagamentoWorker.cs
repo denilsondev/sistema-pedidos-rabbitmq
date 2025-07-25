@@ -27,7 +27,13 @@ namespace PagamentoService.Worker
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
             _logger.LogInformation("PagamentoWorker iniciado e aguardando mensagens...");
-            var conexao = InfraRabbitMQ.CriarConexao();
+            var factory = new ConnectionFactory()
+            {
+                HostName = "localhost",
+                UserName = "guest",
+                Password = "guest"
+            };
+            var conexao = factory.CreateConnection();
             var canal = conexao.CreateModel();
 
             string exchange = "pedidos_exchange";

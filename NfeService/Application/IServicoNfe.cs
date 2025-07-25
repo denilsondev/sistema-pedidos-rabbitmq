@@ -3,6 +3,6 @@ namespace NfeService.Application
     public interface IServicoNfe
     {
         void GerarNfeFake();
-        void GerarNfe(Common.Dominio.Pedido pedido);
+        void GerarNfe(PedidoApp.Common.Dominio.Pedido pedido);
     }
 } 

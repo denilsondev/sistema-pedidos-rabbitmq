@@ -1,7 +1,7 @@
 ﻿using System;
 using PedidoApp.Dominio;
 using PedidoApp.Infra;
-using PedidoApp.Application;
+using PedidoApp.Servicos;
 using RabbitMQ.Client;
 
 class Program

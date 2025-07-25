@@ -28,7 +28,7 @@ class Program
         {
             var body = ea.Body.ToArray();
             var pedido = JsonSerializer.Deserialize<Pedido>(Encoding.UTF8.GetString(body));
-            servicoNotificacao.NotificarCliente(pedido);
+            servicoNotificacao.EnviarNotificacao(pedido);
             canal.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
         };
         canal.BasicConsume(queue: fila, autoAck: false, consumer: consumer);

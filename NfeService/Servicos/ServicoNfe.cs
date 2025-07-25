@@ -1,5 +1,5 @@
 using System;
-using Common.Dominio;
+using PedidoApp.Common.Dominio;
 
 namespace NfeService.Servicos
 {

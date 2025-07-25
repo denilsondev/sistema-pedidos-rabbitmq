@@ -10,7 +10,9 @@ services:
       RABBITMQ_DEFAULT_PASS: guest
 
   pedidoapp:
-    build: ./PedidoApp
+    build:
+      context: .
+      dockerfile: PedidoApp/Dockerfile
     depends_on:
       - rabbitmq
     environment:
@@ -18,7 +20,9 @@ services:
     restart: on-failure
 
   pagamentoservice:
-    build: ./PagamentoService
+    build:
+      context: .
+      dockerfile: PagamentoService/Dockerfile
     depends_on:
       - rabbitmq
     environment:
@@ -26,7 +30,9 @@ services:
     restart: on-failure
 
   nfeservice:
-    build: ./NfeService
+    build:
+      context: .
+      dockerfile: NfeService/Dockerfile
     depends_on:
       - rabbitmq
     environment:
@@ -34,7 +40,9 @@ services:
     restart: on-failure
 
   notificacaoservice:
-    build: ./NotificacaoService
+    build:
+      context: .
+      dockerfile: NotificacaoService/Dockerfile
     depends_on:
       - rabbitmq
     environment:
